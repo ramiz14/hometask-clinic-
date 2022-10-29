@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: bottom;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: #208BBF;
+    padding: 20px;
+}
+#second .text h2{
+    position: relative;
+}
+#second .text h2::before{
+    content: "SANITIZE";
+    color: rgb(237, 241, 247);
+    z-index: -1;
+    font-size: 9rem;
+    margin: -6rem -13rem;
+    position: absolute;
+    opacity: .6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.container{
+    width: 65%;
+    margin: auto;
+}
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-all .left{
+    width: 13%;
+    margin-left: 3rem;
+}
+.header-all .left img{
+    width: 100%;
+}
+nav{
+    width: 65%;
+    text-align: center;
+}
+nav a{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.right{
+    width: 27%;
+}
+.right a{
+    color: #000;
+    background-color: #fff;
+    padding: 15px 50px;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: bold;
+}
+#first{
+   
+    background-image: url(blob:https://web.whatsapp.com/fe4ed1c2-8497-4ef4-bacd-a908272b8564);
+}
+.main-all{
+    position: relative;
+}
+.img{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 25%);
+}
+.img img{
+    width: 100%;
+}
+.price{
+    position: absolute;
+    right: 25%;
+    top: 15rem;
+    font-size: 40px;
+    background-color: #2086C0;
+    padding: 25px;
+    border-radius: 50% 50% 50% 0;
+}
+.addtocart{
+    position: absolute;
+    top: 43rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+.addtocart span{
+    font-size: 20px;
+    color: rgb(150, 150, 150);
+    font-weight: 100;
+}
+.icons{
+    margin-bottom: 20px;
+}
+.btn i{
+    font-size:20px ;
+    color: #fff;
+    margin-right: 8px;
+}
+.btn{
+    background-color: #208BBF;
+    padding: 20px 5px;
+    border-radius: 50px;
+    text-align: center;
+}
+.btn span{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+#second{
+    padding: 70rem 0 0 0;
+    margin-bottom:5rem;
+}
+.text h2{
+    font-size: 40px;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.box{
+    width: 32%;
+    margin-bottom: 70px;
+    
+}
+.box img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.txt2{
+    background-color: #F2F2F2;
+    border-radius: 0 0 20px 20px;
+}
+.explr-more{
+    text-align: center;
+}
+.explr{
+    background-color:rgb(0, 107, 166);
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+.prc{
+    display: flex;
+    justify-content: space-between;
+}
+.prc .stars{
+    margin: 0 20px 20px 0;
+}
+.prc p{
+    margin: 0 0 20px 20px ;
+}
+.abt{
+    margin: 0 0 0 20px ;
+    font-size: 20px;
+}
+.abt a{
+    color: #000;
+}
+#third{
+    margin-bottom: 10rem;
+    padding: 10rem;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Clinika-Gel_banner.jpg?id=22244);
+}
+#third h2{
+color: #fff;
+font-size: 40px;
+margin-bottom: 20px;
+}
+
+#third p{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#third a{
+    color: #208BBF;
+    background-color:#fff;
+    padding: 20px 50px;
+    border-radius: 50px;
+    margin-left: 7rem;
+}
+#forth{
+    margin-bottom: 8rem;
+}
+#fifth{
+    padding: 10rem 0;
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/subscribe-bg.jpg?id=22100);
+}
+.fifth-all{
+    text-align: center;
+}
+.fifth-all div{
+margin-bottom: 20px;
+}
+.top h2{
+    font-size: 40px;
+    color: #fff;
+}
+.mid p{
+    color: #fff;
+    font-size: 20px;
+}
+.bottom{
+    position: relative;
+}
+.bottom input{
+    padding: 20px 150px;
+    border-radius: 30px;
+}
+.bottom button{
+    position: absolute;
+    right: 31.5%;
+    top: 8px;
+    border: none;
+    background-color: #545454;
+    padding: 13px 18px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+#sixth{
+    padding: 10rem 0 0 0;
+}
+.sixth{
+    text-align: center;
+}
+.bottom-sxth{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-sxth .box-sxth{
+    width: 10%;
+}
+.box-sxth img{
+    width: 100%;   
+    opacity: .3; 
+    filter: grayscale(1);
+}
+.top-sxth{
+    margin-bottom: 15px;
+    
+}
+.mid-sxth{
+    margin-bottom: 30px;
+}
+.top-sxth h2{
+    font-size: 40px;    
+}
+.mid-sxth p{
+    font-size: 20px;
+    font-weight: 200;
+    opacity: .6;
+}
+#seventh{
+    background-color: #F5F7FB;
+    padding: 10rem 0 0 0;
+}
+.seventh-all{
+    position: relative;
+}
+.svnth-box{
+    width: 35%;
+    margin-right: 5rem;
+    margin-bottom: 3rem;
+
+}
+.svnth-left h2{
+    margin-bottom: 50px;
+    font-size: 50px;
+    z-index: 2;
+}
+.bottom-left{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.svnth-box p{
+    opacity: .6;
+}
+.svnth-box h3{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.svnth-box img{
+    width: 30%;
+}
+.svnth-right{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.svnth-right img{
+    width: 100%;
+}
+#seventh svg{
+    margin-top: 15rem;
+}
+#forth .text h2{
+    position: relative;
+}
+#forth .text h2::before{
+    content: "LATEST";
+    color: rgb(237, 241, 247);
+    z-index: -1;
+    font-size: 9rem;
+    margin: -6rem -10rem;
+    position: absolute;
+    opacity: .6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.top h2{
+    position: relative;
+}
+.top h2::before{
+    content: "SUBSCRIBE";
+    color: rgb(237, 241, 247);
+    z-index: 0;
+    font-size: 7rem;
+    margin: -4.5rem -2rem;
+    position: absolute;
+    opacity: .1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.top-sxth h2{
+    position: relative;
+}
+.top-sxth h2::before{
+    content: "PARTNER";
+    color: rgb(237, 241, 247);
+    z-index: -1;
+    font-size: 7rem;
+    margin: -4.5rem -6rem;
+    position: absolute;
+    opacity: .7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.svnth-left h2{
+    position: relative;
+}
+.svnth-left h2::before{
+    content: "BENEFIT";
+    color: rgb(239, 240, 243);
+    z-index: -1;
+    font-size: 11rem;
+    margin: -7rem -2rem;
+    position: absolute;
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#eighth{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+}
+.eighth-top{
+    text-align: center;
+}
+.eighth-top h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.eighth-top h2::before{
+    content: "NEWS";
+    color: rgb(239, 240, 243);
+    z-index: -1;
+    font-size: 7rem;
+    margin: -5rem 10px;
+    position: absolute;
+    opacity: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.eighth-top p{
+    font-size: 18px;
+    opacity: .6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.eighth-bottom{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.eighth-box{
+    width: 30%;
+}
+.eighth-box img{
+    width: 100%;
+    border-radius: 15px;
+}
+.eighth-box .eighth-gallery{
+    margin-bottom: 50px;
+    
+}
+.eighth-box .eighth-abt{
+    margin-left: 20px;
+}
+.eighth-box a{
+    font-size: 35px;
+    color: black;
+
+}
+.eighth-abt p{
+    margin: 20px 0;
+    font-size: 15px;
+    opacity: .6;
+}
+.eighth-abt #read-more{
+    font-size: 25px;
+    opacity: .7;
+}
+.ftr-top{
+    display: flex;
+    justify-content: space-between;
+}
+.ftr-top-lft{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.ftr-top-lft .list{
+    width: 30%;
+}
+.ftr-top-lft .list h2{
+    color: #fff;
+    margin-bottom: 25px;
+}
+.ftr-top-lft .list p{
+    margin-bottom: 15px;
+}
+.ftr-top-lft .list a{
+    width: 100%;
+    color: white;
+}
+.ftr-top-rght::before{
+    content: '';
+    position: absolute;
+    display: block;
+    height: 70%;
+    top: 40%;
+    left: -110px;
+    transform: translateY(-40%);
+    width: 1px;
+    background-color: #fff;
+    opacity: .7;
+}
+.ftr-top-rght{
+    width: 40%;
+    position: relative;
+    margin-bottom: 100px;
+}
+footer{
+    padding: 6rem 0 2rem 0;
+    background-color: transparent;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://clinika.modeltheme.com/wp-content/uploads/2020/09/Clinika-footer2-scaled.jpg);
+}
+.footer-all{
+    margin-top: 10rem;
+}
+.ftr-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rght-tp{
+    margin-bottom: 50px;
+    
+}
+.rght-tp h3{
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 30px;
+}
+.rght-tp p{
+    color: #fff;
+    margin-bottom: 10px ;
+    font-size: 20px;
+}
+.rght-tp input{
+    padding: 10px 100px;
+    border-radius: 30px;
+}
+.rght-btm{
+    display: flex;
+    color:white ;
+    align-items: center;
+}
+.rght-btm h3{
+    margin-right: 15px;
+    font-size: 25px;
+}
+.rght-btm i{
+    margin-left: 15px;
+    font-size: 20px;
+}
+.bottom-lft{
+    width: 13%;
+}
+.bottom-lft img{
+    width: 100%;    
+}
+.bottom-rght p{
+    color: #fff;
+    font-size: 20px;
+}
